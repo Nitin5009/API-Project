@@ -30,12 +30,16 @@ public class SignUpPage extends WebBasePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(value);
+		 enter(By.xpath("//input[@id='email']"), value,"Enter Email ID", 30);
+		 
+		//driver.findElement(By.xpath("//input[@id='email']")).sendKeys(value);
 	 }
 	
 	 public void enterPassword(String value)
+	 
 	 {
-		 driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys(value);
+		 enter(By.xpath("//input[@id='passwd']"), value,"Enter Password", 30);
+		 //driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys(value);
 	 }
 	 
 	  public void clickSignIn()
