@@ -80,7 +80,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>doc_storage.xml</suiteXmlFile>
+                        <suiteXmlFile>TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
