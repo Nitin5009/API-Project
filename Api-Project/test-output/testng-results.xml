@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T11:39:52Z" name="Default suite" finished-at="2022-09-26T11:40:27Z" duration-ms="35140">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T11:39:52Z" name="Default test" finished-at="2022-09-26T11:40:27Z" duration-ms="35140">
+      <class name="testcases.IndexPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:09:36Z" name="setUp" finished-at="2022-09-26T17:09:52Z" duration-ms="16072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:09:53Z" name="beforeMethod" finished-at="2022-09-26T17:09:53Z" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.IndexPageTest.SignIn(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:09:53Z" name="SignIn" data-provider="excel" finished-at="2022-09-26T17:10:27Z" duration-ms="33845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Main123@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:10:27Z" name="reportWrapUp" finished-at="2022-09-26T17:10:27Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignIn status=SUCCESS method=IndexPageTest.SignIn(java.lang.String, java.lang.String)[pri:0, instance:testcases.IndexPageTest@548d708a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.IndexPageTest.SignIn(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportWrapUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:10:27Z" name="close" finished-at="2022-09-26T17:10:28Z" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.IndexPageTest@548d708a]" started-at="2022-09-26T17:10:28Z" name="closeBrowser" finished-at="2022-09-26T17:10:28Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.IndexPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
