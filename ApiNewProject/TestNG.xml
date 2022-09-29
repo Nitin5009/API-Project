@@ -6,6 +6,7 @@
 <!--       <class name="utils.WebTestBase"/> -->
       <class name="testcases.IndexPageTest">
       <methods>
+      
       <include name="SignIn">
       </include>
       </methods>
