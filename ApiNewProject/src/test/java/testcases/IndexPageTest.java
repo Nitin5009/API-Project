@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 
 import Action.IndexPageAction;
 import Action.SignupAction;
-import utils.DataProviderClass;
 import utils.WebTestBase;
 
 public class IndexPageTest extends WebTestBase {
