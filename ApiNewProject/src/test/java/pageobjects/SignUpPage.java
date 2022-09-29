@@ -24,7 +24,12 @@ public class SignUpPage extends WebBasePage {
 	
 	 public void enterEmailID(String value)
 	 {
-		 
+		 try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(value);
 	 }
 	
